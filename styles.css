@@ -1,0 +1,98 @@
+/* =======================
+   Global Styles for the Page
+   ======================= */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Font for the entire body */
+    background-color: #f0f0f0; /* Light background color */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* =======================
+   Header Styles
+   ======================= */
+
+header {
+    background-color: #003366; /* Dark blue background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo {
+    width: 150px; /* Adjust width of logo */
+    margin-bottom: 20px; /* Spacing between logo and title */
+}
+
+/* =======================
+   Main Section Styles
+   ======================= */
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* =======================
+   Lyrics Section Styles
+   ======================= */
+
+section.lyrics {
+    margin-bottom: 30px;
+}
+
+section.lyrics h2 {
+    font-family: 'Lobster', cursive; /* Cursive font for headings */
+    font-size: 2.5em;
+    color: #003366; /* Same blue as header */
+    margin-bottom: 20px;
+}
+
+section.lyrics p {
+    font-size: 1.2em; /* Slightly larger font size */
+    line-height: 1.6; /* Better readability */
+    margin: 15px 0;
+}
+
+/* =======================
+   Video Section Styles
+   ======================= */
+
+section.video {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section.video h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* =======================
+   Footer Styles
+   ======================= */
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* =======================
+   CSS Comments
+   ======================= */
+
+/* The font 'Lobster' is used for headings to give a decorative style */
+/* The color scheme is inspired by the Backstreet Boys' logo and style */
